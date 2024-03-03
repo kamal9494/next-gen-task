@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.loading {
+    max-width: 500px;
+    width: 100%;
+    min-width: 300px;
+    height: 80vh;
+    object-fit: contain;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.bookInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.author {
+    font-size: large;
+    font-weight: bold;
+}
+
+.genre {
+    color: gray;
+}
+
+.btnContainer {
+    position: absolute;
+    top: 40%;
+    padding: 0 10px;
+    min-width: 300px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.light {
+    opacity: .9;
+    color: white;
+}
+
+.btn {
+    border-radius: 50%;
+    display: inline-block;
+    opacity: .5;
+    text-decoration: none;
+    background-color: #000000;
+    border: none;
+    border-radius: 50%;
+    font-size: small;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+
+#imgContainer {
+    padding: 10px;
+}
+
+.cover {
+    max-width: 500px;
+    width: 100%;
+    min-width: 300px;
+    height: 80vh;
+    object-fit: contain;
+}
